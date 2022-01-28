@@ -1,0 +1,9 @@
+div:hover {
+    border: 10px solid red;
+    
+}
+
+div:hover h3 {
+    border: 10px solid yellow;
+    
+}
