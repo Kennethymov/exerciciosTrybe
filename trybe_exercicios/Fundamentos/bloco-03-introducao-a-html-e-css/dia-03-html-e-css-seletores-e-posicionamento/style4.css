@@ -3,22 +3,23 @@
     
 } */
   
-:nth-child(3):hover {
+div:nth-of-type(1):hover {
     border: 10px solid yellow;
 }
 
-div:nth-child(4):hover {
+div:nth-of-type(2):hover {
     border: 10px solid blue;
 }
 
-div:nth-child(5):hover {
+div:nth-of-type(3):hover {
     border: 10px solid black;
 }
 
-div:nth-child(6):hover {
+div:nth-of-type(4):hover {
     border: 10px solid purple;
 }
 
-div:nth-child(7):hover {
+div:nth-of-type(5):hover {
     border: 10px solid green;
 }
+
