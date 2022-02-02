@@ -1,9 +1,25 @@
-div:hover {
+/* div:hover {
     border: 10px solid red;
     
+} */
+  
+div:nth-of-type(1):hover {
+    border: 10px solid yellow;
 }
 
-div:hover h3 {
-    border: 10px solid yellow;
-    
+div:nth-of-type(2):hover {
+    border: 10px solid blue;
 }
+
+div:nth-of-type(3):hover {
+    border: 10px solid black;
+}
+
+div:nth-of-type(4):hover {
+    border: 10px solid purple;
+}
+
+div:nth-of-type(5):hover {
+    border: 10px solid green;
+}
+
