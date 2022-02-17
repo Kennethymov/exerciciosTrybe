@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main id="paiDoPai">
+        <section id="pai">
+            <section id="primeiroFilho"></section>
+            <section id="elementoOndeVoceEsta">
+                <section id="primeiroFilhoDoFilho"></section>
+                <section id="segundoEUltimoFilhoDoFilho"></section>
+            </section>
+            Atenção!
+            <section id="terceiroFilho"></section>
+            <section id="quartoEUltimoFilho"></section>
+        </section>
+    </main>
+    <script>
+        let exercicio1 = document.querySelector("#elementoOndeVoceEsta");
+
+        let exercicio2 = exercicio1.parentNode;
+        exercicio2.style.background = "green";
+
+        let exercicio3 = document.querySelector("#primeiroFilhoDoFilho");
+        exercicio3.innerText = "Exercicio 3"
+
+        let exercicio4 = document.querySelector("#pai").firstChild;
+
+        let exercicio5 = document.querySelector("#elementoOndeVoceEsta").firstElementChild;
+
+        let exercicio6 = document.querySelector("#elementoOndeVoceEsta").nextSibling;
+
+        let exercicio7 = document.querySelector("#elementoOndeVoceEsta").nextElementSibling;
+
+        let exercicio8 = document.querySelector("#pai").firstElementChild.nextElementSibling.nextElementSibling;
+
+        // Crie um irmão para elementoOndeVoceEsta .
+
+        let exercicio9 = document.querySelector("#pai");
+        let newElement = document.createElement("div");
+
+        exercicio9.appendChild(newElement);
+        newElement.innerText = "Irmao elementoOndeVoceEsta"
+
+
+        // Crie um filho para elementoOndeVoceEsta .
+
+        let exercicio10 = document.querySelector("#elementoOndeVoceEsta");
+        let newElement2 = document.createElement("div");
+
+        exercicio10.appendChild(newElement2);
+        newElement2.innerText = "Quinto filho"
+
+
+
+
+// Crie um filho para primeiroFilhoDoFilho .
+
+
+
+
+// A partir desse filho criado, acesse terceiroFilho .
+
+
+
+    </script>
+</body>
+
+</html>
